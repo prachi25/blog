@@ -1,0 +1,58 @@
+.logo {
+    height:100px;
+    width:150px;
+    border-radius:50% 0%;
+}
+body {
+    background:url("https://images.businessoffashion.com/profiles/asset/1577151615231141/selena-gomez-1577151796839511.png?auto=format%2Ccompress&crop=top&fit=crop&h=576&w=1024 ");
+    background-size:cover;
+}
+.picture {
+    width:400px;
+    height:250px;
+    /* display: block; */
+}
+.measure {
+    /* margin:auto; */
+}
+.main {
+    max-width:90%;
+    margin:auto;
+    padding:40px;
+    /* display:flex; */
+}
+.middle {
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content:space-between;
+    flex-basis: 100%;
+}
+.text {
+    text-align:right;
+    float:right;
+}
+p {
+    color:white;
+    background:rgba(0,0,0,0.5);
+}
+ul {
+    /* padding:10px; */
+    text-align:center;
+    background:rgba(0,0,0,0.5);
+}
+li {
+    display: inline;
+    padding:0px 150px 0px 150px; 
+}
+a {
+    color:white;
+}
+@media screen and (max-width:650px)
+{
+    .middle {
+        display:flex;
+        flex-wrap:wrap; 
+        justify-content:space-between;
+        flex-basis: 100%;
+    }
+}
